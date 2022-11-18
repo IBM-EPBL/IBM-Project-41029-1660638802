@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="../static/signup.css" rel="stylesheet">
+    <style>
+     /* Material Customization */
+
+      </style>
+  </head>
+<body>
+    <div class="root">
+      <div class="left">
+        <form class="registration" action="login.html">
+          <h1 style="color: black;">Sign Up!</h1>
+        
+          <label class="pure-material-textfield-outlined">
+             <input name="username" placeholder="User Name" type="text" required>
+         
+          </label>
+        
+          <label class="pure-material-textfield-outlined">
+            <input name="email" placeholder="Email" type="email" required>
+          
+          </label>
+           <label class="pure-material-textfield-outlined">
+            <input name="password" placeholder="Password" type="password" required>
+          
+          </label>
+           <label class="pure-material-textfield-outlined">
+            <input name="phone no" placeholder="Phone no" type="text" required>
+          
+          
+          
+        
+          
+          <form action="login.html">
+            <button class="pure-material-button-contained btn">Sign Up</button>
+            </form>
+       
+        
+      </form>
+      </div>
+    
+    <div class="right">
+      <div class="image">
+      <h1> Welcome</h1>
+
+      <Center><h3>Industrial Monitor system</h3></Center>
+      <style> 
+      html,body{
+        margin: 0;
+        height: 100%;
+        background: url(https://images.unsplash.com/photo-1511489731872-324afc650052?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNhbmFkYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) #f0f0f4;
+        background-size: cover;
+      }
+        
+      </style>
+      
+       
+
+    
+    </div>
+    
+  </div>
+</div>
+ </body>
+ <script>
+    function AddRow()
+    {
+      var usernamee = document.getElementById("username").value;
+      var passwordd = document.getElementById("password").value;
+      var email = document.getElementById("email").value;
+      var phone = document.getElementById("phone").value;
+      if (username==""|| password==""|| email==""|| phone=="") {
+        return false;
+      }
+      else 
+      {
+        google.script.run.AddRecord(username,password,email,phone);
+      
+      }
+    }
+    function function1()
+    { 
+      windows.location.href="login.html"
+    }
+
+   </script>
+</html>

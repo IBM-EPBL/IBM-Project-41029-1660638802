@@ -1,0 +1,65 @@
+h1{
+    color:rgba(41, 71, 77, 0.842);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: .05em;
+    text-transform:uppercase;
+    text-shadow: 1.3px 1px;
+    text-align:center;
+   
+}
+
+header{
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.212);
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(#0a82a0be,rgba(128, 128, 128, 0.267));
+    text-transform: uppercase;
+    font-size: 1em;
+    font-style: italic;
+}
+body{
+    background:lightblue;
+}
+
+div{
+    border: solid rgba(0, 0, 0, 0.212);
+    margin: 5px;
+    height:600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+    
+
+a{
+    height: 50px;
+    border: solid rgba(0, 0, 0, 0.212);
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(15, 49, 65, 0.897);
+    background: linear-gradient(#0a82a0be,rgba(128, 128, 128, 0.267));
+}
+
+h3{
+    color:rgba(25, 96, 143, 0.842);
+    font-family:  serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: .05em;
+    text-transform:uppercase;
+    text-shadow: 1px 1px;
+    text-align:center;
+}
+
+h2{
+    color: rgba(22, 31, 34, 0.863);
+    font-family:'Times New Roman', Times, serif;
+}
